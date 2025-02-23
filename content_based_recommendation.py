@@ -1,4 +1,5 @@
 #All the imports below should get the code to run on any machine with python
+#Name: Joseph Jebara
 from datasets import load_dataset                           #To use the huggingface dataset
 from sklearn.feature_extraction.text import TfidfVectorizer #For TF-IDF calculations
 from sklearn.metrics.pairwise import cosine_similarity      #For cosine similarity calculations
